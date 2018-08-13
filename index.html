@@ -2,10 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link src="css/bootstrap.css" rel="stylesheet" href="css/master.css">
-    <link src="css.styles.css" rel="stylesheet" href="css/master.css">
-    <script src="bootstrap.js"></script>
-    <script src="jsquery-3.3.1.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Favorite Things</title>
   </head>
@@ -15,17 +14,25 @@
       <form id="favorites">
           <div class="form-group">
             <label for="favorite-foods">What are your favorite foods?</label>
-            <input id="favorite-food" class="form-control" type="text"></input>
+            <input id="favorite-foods" class="form-control" type="text"></input>
           </div>
           <div class="form-group">
             <label for="favorite-colors">What are your favorite colors?</label>
-            <input id="cool-colors" class="form-control" type="text"></input>
+            <input id="favorite-colors" class="form-control" type="text"></input>
           </div>
           <div class="form-group">
             <label for="favorite-ice-cream">What are your favorite ice cream flavors?</label>
-            <input id="yummy-ice-cream" class="form-control"></input>
+            <input id="favorite-ice-cream" class="form-control" type="text"></input>
           </div>
+            <button type="submit" class="btn">Show me my faves, yo!</button>
       </form>
+    </div>
+
+    <div id="favorite-things">
+      <h1>These are a few...</h1>
+      <p>
+      I love food, my favorite is definitely: <span class="input-food"></span> and it's effing delicious. However, it's important to note that my favorite color is <span class="input-color"></span> because I'm a five year old and I can't stay on topic yet! Forthright, my favorite ice cream, because it's imperative that you know is: <span class="input-ice-cream"></span>.
+      </p>
     </div>
   </body>
 </html>

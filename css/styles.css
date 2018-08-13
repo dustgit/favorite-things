@@ -3,4 +3,9 @@
   padding: 4px;
   margin: 12px;
   background-color: grey;
+  opacity: .75
+}
+
+#favorite-things {
+  display: none;
 }
